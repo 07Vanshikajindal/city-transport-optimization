@@ -1,0 +1,53 @@
+{
+  "graphs": [
+    {
+      "id": 1,
+      "name": "Small City Network",
+      "nodes": ["A", "B", "C", "D"],
+      "edges": [
+        {"from": "A", "to": "B", "weight": 3},
+        {"from": "A", "to": "C", "weight": 1},
+        {"from": "B", "to": "C", "weight": 7},
+        {"from": "B", "to": "D", "weight": 5},
+        {"from": "C", "to": "D", "weight": 2}
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Medium City Network",
+      "nodes": ["A", "B", "C", "D", "E", "F"],
+      "edges": [
+        {"from": "A", "to": "B", "weight": 4},
+        {"from": "A", "to": "C", "weight": 2},
+        {"from": "B", "to": "C", "weight": 1},
+        {"from": "B", "to": "D", "weight": 5},
+        {"from": "C", "to": "D", "weight": 8},
+        {"from": "C", "to": "E", "weight": 10},
+        {"from": "D", "to": "E", "weight": 2},
+        {"from": "D", "to": "F", "weight": 6},
+        {"from": "E", "to": "F", "weight": 3}
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Large City Network",
+      "nodes": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"],
+      "edges": [
+        {"from": "A", "to": "B", "weight": 5},
+        {"from": "A", "to": "C", "weight": 3},
+        {"from": "B", "to": "C", "weight": 2},
+        {"from": "B", "to": "D", "weight": 6},
+        {"from": "C", "to": "E", "weight": 7},
+        {"from": "C", "to": "F", "weight": 4},
+        {"from": "D", "to": "E", "weight": 3},
+        {"from": "E", "to": "F", "weight": 2},
+        {"from": "E", "to": "G", "weight": 5},
+        {"from": "F", "to": "G", "weight": 6},
+        {"from": "G", "to": "H", "weight": 1},
+        {"from": "H", "to": "I", "weight": 4},
+        {"from": "H", "to": "J", "weight": 2},
+        {"from": "I", "to": "J", "weight": 3}
+      ]
+    }
+  ]
+}

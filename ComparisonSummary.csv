@@ -1,0 +1,4 @@
+GraphID,Nodes,Edges,PrimCost,KruskalCost,SameCost,ValidMST,PrimTime(ms),KruskalTime(ms),PrimOps,KruskalOps
+1,4,5,6,6,true,true,7.483,3.281,19,13
+2,6,9,13,13,true,true,0.137,0.105,37,27
+3,10,14,25,25,true,true,0.218,0.151,60,50
