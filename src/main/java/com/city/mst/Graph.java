@@ -1,31 +1,3 @@
-//package com.city.mst;
-//
-//
-//
-//import java.util.*;
-//
-//// Graph stores all cities and roads
-//public class Graph {
-//    public List<String> cities;
-//    public List<Edge> edges;
-//
-//    public Graph() {
-//        cities = new ArrayList<>();
-//        edges = new ArrayList<>();
-//    }
-//
-//    public void addCity(String city) {
-//        if (!cities.contains(city)) cities.add(city);
-//    }
-//
-//    public void addEdge(String source, String destination, int cost) {
-//        edges.add(new Edge(source, destination, cost));
-//        addCity(source);
-//        addCity(destination);
-//    }
-//}
-
-
 package com.city.mst;
 
 import java.util.*;
