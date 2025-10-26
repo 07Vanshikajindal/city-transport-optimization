@@ -1,37 +1,3 @@
-//package com.city.mst;
-//
-//import java.util.*;
-//
-// Implements Kruskal's algorithm
-// public class KruskalAlgorithm {
-//    public static List<Edge> findMST(Graph graph) {
-//        List<Edge> mst = new ArrayList<>();
-//        Collections.sort(graph.edges); // sort by cost
-//        Map<String, String> parent = new HashMap<>();
-//
-//        for (String city : graph.cities)
-//            parent.put(city, city);
-//
-//        for (Edge edge : graph.edges) {
-//            String root1 = find(parent, edge.source);
-//            String root2 = find(parent, edge.destination);
-//
-//            if (!root1.equals(root2)) {
-//                mst.add(edge);
-//                parent.put(root1, root2);
-//            }
-//        }
-//
-//        return mst;
-//    }
-//
-//    private static String find(Map<String, String> parent, String city) {
-//        if (parent.get(city).equals(city))
-//            return city;
-//        return find(parent, parent.get(city));
-//    }
-//}
-
 
 package com.city.mst;
 
